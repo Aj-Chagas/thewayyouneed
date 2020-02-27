@@ -1,0 +1,28 @@
+.marcador{
+    background: #fe9d9d;
+    border: 1px solid #f94646;
+}
+
+.marcador2{
+    background: black;
+    border: 1px solid #f94646;
+}
+
+.largura{
+    width: 100%;
+}
+
+h4, h3{
+    margin: 1rem 0rem;
+}
+
+
+.background{
+    background: white;
+}
+
+.noPadding{
+    padding: 0.75rem 0rem;
+  
+}
+

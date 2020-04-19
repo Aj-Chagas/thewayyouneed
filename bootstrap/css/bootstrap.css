@@ -6416,18 +6416,6 @@ a.close.disabled {
   text-align: center;
 }
 
-.carousel-custom{
-
-  position: relative;
-  width: fit-content;
-  margin-left: 40px;
-  margin-right: 40px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #fff;
-  text-align: center;
-}
-
 @-webkit-keyframes spinner-border {
   to {
     -webkit-transform: rotate(360deg);

@@ -27,6 +27,12 @@
         top: 20%;
         margin-left: 200px;
     }
+
+    .box_carousel{
+        height: auto;
+        padding: 10px;
+        background-color: #3c3b6e;
+    }
 }
 /* small*/
 @media screen and (min-width: 577px){

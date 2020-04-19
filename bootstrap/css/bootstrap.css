@@ -6249,24 +6249,6 @@ a.close.disabled {
   transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
 }
 
-.carousel-custom {
-  position: relative;
-  width: fit-content;
-  margin-left: 40px;
-  margin-right: 40px;
-  color: white;
-  text-align: center;
-  transition: -webkit-transform 0.6s ease-in-out;
-  transition: transform 0.6s ease-in-out;
-  transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
-}
-
-.box_carousel{
-  height: auto;
-  padding: 100px;
-  background-color: #3c3b6e;
-}
-
 @media (prefers-reduced-motion: reduce) {
   .carousel-item {
     transition: none;
@@ -6428,6 +6410,18 @@ a.close.disabled {
   bottom: 20px;
   left: 15%;
   z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.carousel-custom{
+
+  position: relative;
+  width: fit-content;
+  margin-left: 40px;
+  margin-right: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
   color: #fff;

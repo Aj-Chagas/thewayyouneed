@@ -27,6 +27,11 @@
         top: 20%;
         margin-left: 200px;
     }
+    .box_carousel{
+        padding-bottom: 20px;
+        height: fit-content;
+        background-color: #3c3b6e;
+    }
 }
 /* small*/
 @media screen and (min-width: 577px){
@@ -45,6 +50,11 @@
         top: 30%;
         margin-left: 200px;
     }
+    .box_carousel{
+        padding: 20px;
+        height: fit-content;
+        background-color: #3c3b6e;
+    }
 }
 /* Large*/
 @media screen and (min-width: 992px){
@@ -60,6 +70,11 @@
         top: 30%;
         margin-left: 200px;
     }
+    .box_carousel{
+        padding: 100px;
+        height: fit-content;
+        background-color: #3c3b6e;
+    }
 }
 /*Extra Large */
 @media screen and (min-width: 1200px){
@@ -74,5 +89,10 @@
         position: absolute;
         top: 40%;
         margin-left: 200px;
+    }
+    .box_carousel{
+        padding: 100px;
+        height: fit-content;
+        background-color: #3c3b6e;
     }
 }

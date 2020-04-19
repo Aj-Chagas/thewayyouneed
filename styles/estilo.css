@@ -131,10 +131,33 @@ body{
 
 /*--------------------Carrosel----------------*/
 
-.box_carousel{
-    height: 500px;
-    background-color: #3c3b6e;
+
+.carousel_image{
+    margin: 20px;
+    height: 200px;
 }
+
+.carousel_caption_custom{
+    position: relative;
+    width: fit-content;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+/*.carousel_caption_custom{
+    position: relative;
+    width: fit-content;
+    margin-left: 140;
+    margin-right: 15%;
+    padding-bottom: 15%;
+
+
+
+    color: #fff;
+    text-align: center;
+}*/
 
 
 /*--------------------planos cards----------------*/

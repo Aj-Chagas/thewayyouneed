@@ -139,9 +139,9 @@ body{
 
 
 .carousel_image{
-    margin: 20px !important;
-    height: 200px !important;
-    width: 200px !important;
+    margin: 20px;
+    height: 200px;
+    width: 200px;
 }
 
 .custom_carousel{

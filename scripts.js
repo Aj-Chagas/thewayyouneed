@@ -27,6 +27,7 @@
     }
 
     function goToWhatsApp(text){
+      
       const newText = text.split(" ").join("%20")
       window.open("https://api.whatsapp.com/send?phone=5511965896460&text=", "_blank")
     }

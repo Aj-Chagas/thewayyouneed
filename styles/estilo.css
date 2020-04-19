@@ -137,7 +137,7 @@ body{
     height: 200px;
 }
 
-.carousel_caption_custom{
+.custom_carousel{
     position: relative;
     width: fit-content;
     margin-left: 40px;

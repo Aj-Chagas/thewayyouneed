@@ -132,11 +132,7 @@ body{
 /*--------------------Carrosel----------------*/
 
 
-.box_carousel{
-    height: auto;
-    padding: 100px;
-    background-color: #3c3b6e;
-}
+/* classes do carrosel foram customizadas no arquivo boostrap. Essa abordagem foi necessaria para que funcionassem no servidor corretamente*/
 
 
 .carousel_image{

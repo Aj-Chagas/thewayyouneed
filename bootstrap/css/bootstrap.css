@@ -6261,6 +6261,12 @@ a.close.disabled {
   transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
 }
 
+.box_carousel{
+  height: auto;
+  padding: 100px;
+  background-color: #3c3b6e;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .carousel-item {
     transition: none;

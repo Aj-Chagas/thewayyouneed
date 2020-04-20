@@ -17,6 +17,36 @@
     <link href="styles/estilo.css" rel="stylesheet">
     <link href="styles/midiaQuery.css" rel="stylesheet">
 
+    <style>
+        .carousel-custom {
+          position: relative;                              
+          width: fit-content;
+          margin-left: 10px;
+          margin-right: 10px;
+          margin-bottom: 20px;
+          color: white;
+          text-align: center;
+        }
+    
+        .box_carousel{
+          height: auto;
+          padding: 100px;
+          background-color: #3c3b6e;
+        }
+    
+        @media screen and (max-width: 576px){
+            .box_carousel{
+            height: auto;
+            padding: 10px;
+            background-color: #3c3b6e;
+        }
+    
+        }
+    
+    
+      </style>
+  
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -150,115 +180,88 @@
     </div>
 
     <section id="depoimentos">
-        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <center id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="20000">
             <ol class="carousel-indicators">
-                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active box_carousel">
-                    <img src="Depoimentos/Anderson Alves da Silva/AndersonSilva.png" class="d-none  d-md-block w-100"
-                        alt="...">
-                    <div class="carousel-caption">
-                        <h5>Anderson Alves da Silva</h5>
-                        <p>Ao ser contrato por uma multinacional americana , me desafiei aos 42 anos, aprender o inglês.
-                            Com a metodologia e nítida dedicação, de quem faz o que gosta e, com seu jeito especial ao
-                            ensinar esse
-                            aluno, tenho a certeza de ter feito a escolha certa.
-                            " Feliz aquele que transfere o que sabe "
-                            Anderson Alves</p>
-                    </div>
+            <div class="carousel-inner" >
+              <div class="carousel-item active box_carousel" >
+                <div>
+                  <img src="Depoimentos/Anderson Alves da Silva/AndersonAlvesDaSilva.png" width="200px" height="200px" style="margin-top: 20px; margin-bottom: 20px;" alt="...">
                 </div>
-                <div class="carousel-item box_carousel">
-                    <img src="Depoimentos/Rafael Mendes/rafael.png" class="d-none  d-md-block w-100" alt="...">
-                    <div class="carousel-caption">
-                        <h5>Rafel Mendes</h5>
-                        <p>Learning with Janaina is wonderful! In a few months, I improved a lot in your classes! I am
-                            happy
-                            to
-                            participate and recommend it to all of you!</p>
-                    </div>
+                <div class="carousel-custom">
+                  <h5>Anderson Alves da Silva</h5>
+                  <p>Ao ser contrato por uma multinacional americana , me desafiei aos 42 anos, aprender o inglês.
+                    Com a metodologia e nítida dedicação, de quem faz o que gosta e, com seu jeito especial ao ensinar esse
+                    aluno, tenho a certeza de ter feito a escolha certa.
+                    " Feliz aquele que transfere o que sabe "
+                    Anderson Alves</p>
                 </div>
-                <div class="carousel-item box_carousel">
-                    <img src="Depoimentos/Daniel Caleone/Daniel Calone.png" class="d-none  d-md-block w-100" alt="...">
-                    <div class="carousel-caption">
-                        <h5>Daniel Calone </h5>
-                        <p>Tenho aulas de ingles com a Janaína a algum tempo e posso dizer q e simplesmente incrível.
-                            Eu nao gostava muito de estudar ingles, tinha muita dificuldade e o fato de nao ver evolucao
-                            me
-                            incomodava
-                            muito, mas as aulas com a Janaína sao leves, de facil compreensão e entendimento e com isso
-                            minha diaposicao
-                            para aprender ingles melhorou muito.
-                            Ela tem um.metodo realmente funcional e sua alegria em fazer o que gosta e contagiante e
-                            isso me
-                            faz
-                            aprender cada vez mais o ingles.
-                            Sua pontualidade, comprometimento e vontade de ensinar é o que destaco no que mais me
-                            impressiona nas aulas
-                            e mesmo fazendo aulas por Skype sao de uma qualidade incrivel.
-                            Agradeço pela oportididade de aprender ingles com vc.
-                            Obrigado
-                        </p>
-                    </div>
+              </div>
+              <div class="carousel-item box_carousel">
+                <img src="Depoimentos/Rafael Mendes/rafael.jpeg" width="200px" height="200px" style="margin-top: 20px; margin-bottom: 20px;" alt="...">
+                <div class="carousel-custom">
+                  <h5>Rafel Mendes</h5>
+                  <p>Learning with Janaina is wonderful! In a few months, I improved a lot in your classes! I am happy to
+                    participate and recommend it to all of you!</p>
                 </div>
+              </div>
+              <div class="carousel-item box_carousel">
+                <img src="Depoimentos/Daniel Caleone/Daniel Calone white.svg" width="200px" height="200px" style="margin-top: 20px; margin-bottom: 20px;" alt="...">
+                <div class="carousel-custom">
+                  <h5>Daniel Calone </h5>
+                  <p>Tenho aulas de ingles com a Janaína a algum tempo e posso dizer q e simplesmente incrível.
+                    Eu nao gostava muito de estudar ingles, tinha muita dificuldade e o fato de nao ver evolucao me incomodava
+                    muito, mas as aulas com a Janaína sao leves, de facil compreensão e entendimento e com isso minha diaposicao
+                    para aprender ingles melhorou muito.
+                    Ela tem um.metodo realmente funcional e sua alegria em fazer o que gosta e contagiante e isso me faz
+                    aprender cada vez mais o ingles.
+                    Sua pontualidade, comprometimento e vontade de ensinar é o que destaco no que mais me impressiona nas aulas
+                    e mesmo fazendo aulas por Skype sao de uma qualidade incrivel.
+                    Agradeço pela oportididade de aprender ingles com vc.
+                    Obrigado
+                  </p>
+                </div>
+              </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
             </a>
             <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
             </a>
-        </div>
+            
+          </center>
     </section>
-
 
 
     <div class="container">
         <footer class="pt-4 my-md-5 pt-md-5 border-top">
-            <div class="row">
-                <div class="col-12 col-md">
-                    <a class="navbar-brand" href="#top">
-                        <img src="icons/logo/navBrand.svg" width="150" height="150" alt="">
-                    </a>
-                    <img class="mb-2" src="../../assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
-                    <small class="d-block mb-3 text-muted">&copy; 2017-2020</small>
-                </div>
-                <div class="col-6 col-md">
-                    <h5>Features</h5>
-                    <ul class="list-unstyled text-small">
-                        <li><a class="text-muted" href="#">Algo legal</a></li>
-                        <li><a class="text-muted" href="#">Feature aleatória</a></li>
-                        <li><a class="text-muted" href="#">Recursos para times</a></li>
-                        <li><a class="text-muted" href="#">Coisas para desenvolvedores</a></li>
-                        <li><a class="text-muted" href="#">Outra coisa legal</a></li>
-                        <li><a class="text-muted" href="#">Último item</a></li>
-                    </ul>
-                </div>
-                <div class="col-6 col-md">
-                    <h5>Fontes</h5>
-                    <ul class="list-unstyled text-small">
-                        <li><a class="text-muted" href="#">Fonte</a></li>
-                        <li><a class="text-muted" href="#">Nome da fonte</a></li>
-                        <li><a class="text-muted" href="#">Outra fonte</a></li>
-                        <li><a class="text-muted" href="#">Fonte final</a></li>
-                    </ul>
-                </div>
-                <div class="col-6 col-md">
-                    <h5>Sobre</h5>
-                    <ul class="list-unstyled text-small">
-                        <li><a class="text-muted" href="#">Equipe</a></li>
-                        <li><a class="text-muted" href="#">Locais</a></li>
-                        <li><a class="text-muted" href="#">Privacidade</a></li>
-                        <li><a class="text-muted" href="#">Termos</a></li>
-                    </ul>
-                </div>
+          <div class="row">
+            <div class="col-12 col-md">
+              <a class="navbar-brand" href="#top">
+                <img src="icons/logo/navBrand.svg" width="150" height="150" alt="">
+              </a>
+              <img class="mb-2" src="../../assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
+              <small class="d-block mb-3 text-muted">&copy; 2017-2020</small>
             </div>
+            <div class="col-12 col-md">
+              <h5>Redes Sociais</h5>
+              <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="javascript:goToWhatsApp('Hi! I am teacher Jana! Como posso ajudar')">WhatApp</a></li>
+                <li><a class="text-muted" href="mailto:jandeandrade.nino@gmail.com">Email</a></li>
+                <li><a class="text-muted" href="https://www.youtube.com/channel/UC0hE1G3U1II-PLGqi8GUj-A/videos">Canal do youtube</a></li>
+                <br><br>
+                <li><a class="text-muted" href="#">Todos os direitos reservados 2020</a></li>
+              </ul>
+            </div>
+          </div>
         </footer>
-    </div>
+      </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
